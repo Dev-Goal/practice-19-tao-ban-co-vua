@@ -38,7 +38,48 @@ body {
   margin: 50px;
   font-size: 3rem;
 }
-
+.form-table1{
+  border-collapse: collapse;
+  width: 100%;
+}
+.form-table--th, .form-table-td{
+  border: 1px solid #fff;
+  padding: 5px;
+}
+.form-table--th{
+  background-color: orange;
+  color: #fff;
+}
+.form-table--th:nth-child(1){
+  background-color: red;
+}
+.form-table--th:nth-last-child(1){
+  background-color: blue;
+}
+.form-table-td:nth-child(1){
+  color: red;
+}
+.form-table-td:nth-last-child(1){
+  color: blue;
+}
+/* css table-bottom */
+.form-table--td{
+  border: 3px solid #e0e0e0;
+  padding: 10px;
+  font-size: 20px;
+}
+.form-table--td:nth-child(1){
+  color: red;
+}
+.form-table--td:nth-last-child(1){
+  color: blue;
+}
+.form-table--td__small{
+  font-size: 10px;
+  position: relative;
+  top: 3px;
+  left: -6px;
+}
 /* .sm-text {
   font-size: 0.5rem;
   position: relative;
